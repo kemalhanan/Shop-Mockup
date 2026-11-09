@@ -9,7 +9,8 @@
     "clothing-storefront": {
       "root": "artifacts/clothing-storefront",
       "framework": "vite",
-      "outputDirectory": "dist/public"
+      "outputDirectory": "dist/public",
+      "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
     },
     "mockup-sandbox": {
       "root": "artifacts/mockup-sandbox",
